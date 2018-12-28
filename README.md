@@ -12,9 +12,13 @@ Hint: NewtonWars assumes vsync is enabled. If it is running way too fast on your
 Include liberys
 ==============
 cd /opt/vc/lib
+
 sudo ln -s libbrcmEGL.so libEGL.so
+
 sudo ln -s libbrcmGLESv2.so libGLESv2.so
+
 sudo ln -s libbrcmOpenVG.so libOpenVG.so
+
 sudo ln -s libbrcmWFC.so libWFC.so
 
 
